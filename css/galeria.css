@@ -1,0 +1,93 @@
+/*Deus seja adorado!*/
+html {
+    background-color: black;
+}
+body {
+    background-color: #e3e3e3;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+header {
+    height: 40%;
+    background-image: url(../imagens/fundoedifiber.jpg);
+    background-size: 100%;
+    background-position: bottom;
+}
+#nome {
+    background-color: #558308;
+    color: white;
+    width: 30%;
+    margin: 1% auto;
+    padding: 0.7%;
+    min-width: 300px;    
+}
+#nome img {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+.h1 {    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.h2 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    clear: both;
+    font-size: 200%;
+}
+nav {
+    width: 100%;
+}
+#menu {
+    background-color: #000;
+}
+.navbar {
+    border-color: #d9d9d9;
+    border-left-color: #000;
+    border-right-color: #000;
+}
+.navbar-default {
+    color: white;
+}
+section {
+    padding: 1%;
+}
+h1 {
+    text-align: center;
+}
+body section {
+    background-color: #d9d9d9;
+}
+
+#gallery {
+    margin-left: auto;
+    margin-right: auto;
+}
+body section a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 75%;
+    clear: both;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+}
+footer a {
+    color: white;
+}
+#active {
+    background-color: #558308;
+    color: white;
+}

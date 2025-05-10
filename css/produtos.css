@@ -1,0 +1,148 @@
+/*Deus seja adorado!*/
+html {
+    background-color: black;
+}
+body {
+    background-color: #e3e3e3;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+header {
+    height: 40%;
+    background-image: url(../imagens/fundoedifiber.jpg);
+    background-size: 100%;
+    background-position: bottom;
+}
+#nome {
+    background-color: #558308;
+    color: white;
+    width: 30%;
+    margin: 1% auto;
+    padding: 0.7%;
+    min-width: 300px;    
+}
+#nome img {
+    float: left;
+    margin: 1%;
+    margin-left: 10%;
+}
+.h1 {    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.h2 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    clear: both;
+    font-size: 200%;
+}
+nav {
+    width: 100%;
+}
+#menu {
+    background-color: #000;
+}
+.navbar {
+    border-color: #d9d9d9;
+    border-left-color: #000;
+    border-right-color: #000;
+}
+.navbar-default {
+    color: white;
+}
+section {
+    padding: 1%;
+}
+h1 {
+    text-align: center;
+}
+.mhoriz {
+    width: 100%;
+}
+.mhoriz ol {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.mhoriz ol li {
+    list-style-type:none;
+    display: inline;
+}
+.mhoriz ol li a {
+    padding: 1% 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    margin-right: -1%;
+    width: 18%;
+    height: 50px;
+    vertical-align: middle;
+}
+.mhoriz ol li a:hover {
+    background-color: #558308;
+}
+.block {
+    padding: 1%;
+    width: 100%;
+}
+.imagens {
+    float:left;
+    width:32.29%;
+    padding: 2em;
+    padding-top: 1px;
+}
+.imagens img {
+    float: right;
+}
+.listas {
+    float:right;
+    width:66.66%;
+}
+.listas ul {
+    margin: 0;
+    padding: 0;
+}
+.listas ul li {
+    list-style-type: disc;
+}
+.listas ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;   
+    display: block;
+    margin-bottom: 1px;
+}
+.listas ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.carousel div.item {
+    margin: 2%;
+}
+.produtos {
+    float: right;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 75%;
+    clear: both;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+}
+footer a {
+    color: white;
+}
+#active {
+    background-color: #558308;
+    color: white;
+}
